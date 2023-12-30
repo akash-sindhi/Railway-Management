@@ -1,0 +1,16 @@
+/* Existing styles */
+
+.section {
+    /* display: none; */
+    margin-top: 20px;
+}
+
+.section input, .section button {
+    margin: 5px;
+    padding: 10px;
+}
+
+#trainList {
+    margin-top: 20px;
+    text-align: left;
+}

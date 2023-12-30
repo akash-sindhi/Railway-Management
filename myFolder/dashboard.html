@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div id="train-operations" class="section">
+        <h2>Train Operations</h2>
+        
+        <!-- Form to Add Train -->
+        <div>
+            <div>
+                <input type="text" id="trainNumber" placeholder="Train Number">
+                <input type="text" id="trainRoute" placeholder="Train Route">
+                <input type="text" id="entryPrice" placeholder="Entry Price">
+               
+            </div>
+            <button onclick="addTrain()">Add Train</button>
+        </div>
+        
+        <!-- Button to View All Trains -->
+        <button onclick="viewTrains()">View All Trains</button>
+    
+        <!-- Section to Display Trains -->
+        <div id="trainList"></div>
+    
+        <!-- Search Train -->
+        <div>
+            <input type="text" id="searchTrainNumber" placeholder="Search Train Number">
+            <button onclick="searchTrainByNumber()">Search by Number</button>
+        </div>
+        
+        <!-- Search Train by Route -->
+        <div>
+            <input type="text" id="searchTrainRoute" placeholder="Search Train Route">
+            <button onclick="searchTrainByRoute()">Search by Route</button>
+        </div>
+        
+    
+        <button onclick="showSection()">Back to Dashboard</button>
+
+
+        <div id="ticket-booking" class="section">
+            <h2>Ticket Booking</h2>
+            
+            <!-- Form to Book Train Tickets -->
+            <div>
+                <input type="text" id="bookingId" placeholder="Booking ID">
+                <input type="text" id="passengerName" placeholder="Passenger Name">
+                <input type="text" id="bookTrainNumber" placeholder="Train Number">
+                <button onclick="bookTicket()">Book Ticket</button>
+            </div>
+
+            <div>
+                <input type="text" id="cancelBookingId" placeholder="Enter Booking ID to Cancel">
+                <button onclick="cancelTicket()">Cancel Ticket</button>
+            </div>
+        
+        
+            <!-- Button to View All Bookings -->
+            <button onclick="viewBookings()">View All Bookings</button>
+        
+            <!-- Section to Display Bookings -->
+            <div id="bookingList"></div>
+        </div>
+
+        <button onclick="logout()">LOGOUT</button>
+    </div>
+    <script src="dashboard.js"></script>
+    
+    
+</body>
+</html>
