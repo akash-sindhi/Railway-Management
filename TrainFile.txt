@@ -1,0 +1,12 @@
+Train number: 333
+Number of seats: 34
+Route: karachtohyderabad
+Timing: 3PM
+Rent: 332
+_______________
+Train number: 1
+Number of seats: 100
+Route: Isl-lahore
+Timing: 4am
+Rent: 6000
+_______________

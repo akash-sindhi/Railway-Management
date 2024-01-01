@@ -199,12 +199,3 @@ class TicketBooking{
 			fin.close();
 		}
 };
-
-
-
-
-
-
-
-
-

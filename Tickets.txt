@@ -1,0 +1,7 @@
+Booking id: 1234
+Passenger name: akah
+Number of tickets: 11
+Route: Isl-lahore
+Timing: 4am
+Rent: 6000
+_______________
