@@ -1,30 +1,30 @@
 # Railway Management System
-**Overview**
+## Overview:
 The provided C++ program represents a simple Train Booking System. Users can sign up or log in, perform various train-related operations, and book tickets. The system is divided into classes, including Auth for user authentication, TrainOperations for handling train-related tasks, and TicketBooking for managing ticket bookings
-Features:
-Features:
-User Authentication:
+## Features:
 
+### User Authentication:
 Users can sign up with a unique username and password.
 Existing users can log in to access the system.
-Train Operations:
+### Train Operations:
 
 Add new trains with details such as route, train number, seats, timings, and rent.
-View the list of existing trains.
+### View the list of existing trains:
+
 Search for a specific train based on the train number.
-Ticket Booking:
+### Ticket Booking:
 
 Book tickets by providing details like booking ID, passenger name, number of tickets, and route.
 View the list of booked tickets.
 Search for a specific booking using the booking ID.
-Getting Started:
-Prerequisites:
-Download Visual Studio Code:
+## Getting Started:
+### Prerequisites:
+#### Download Visual Studio Code:
 Visit the official Visual Studio Code website at https://code.visualstudio.com/.
 Click on the "Download for Windows," "Download for macOS," or "Download for Linux" button, depending on your operating system.
 
- Installation Steps:
-Install Visual Studio Code:
+### Installation Steps:
+#### Install Visual Studio Code:
 
 Windows:
 
